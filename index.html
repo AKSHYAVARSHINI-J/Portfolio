@@ -1,0 +1,205 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css" integrity="sha512-DTOQO9RWCH3ppGqcWaEA1BIZOC6xxalwEsw9c2QQeAIftl+Vegovlnee1c9QX4TctnWMn13TZye+giMm8e2LwA==" crossorigin="anonymous" referrerpolicy="no-referrer"
+    />
+    <link rel="stylesheet" href="index.css" />
+    <title>AKSHYAVARSHINI J</title>
+    <link rel="icon" type="image/png" sizes="16x16" href="favicon-32x32.png" />
+</head>
+
+<body>
+    <header class="header">
+        <a href="#home" class="portfolio-logo">Portfolio</a>
+        <i class="fa-solid fa-bars" id="menu-bar-icone"></i>
+        <nav class="navbar-container">
+            <a href="#home" class="active">Home</a>
+            <a href="#about">About</a>
+            <a href="#skills">Skills</a>
+            <a href="#services">Services</a>
+            <a href="#project">Projects</a>
+            <a href="#certificates">Certificates</a>
+            
+        </nav>
+    </header>
+
+    <section class="home" id="home">
+        <div class="home-container">
+            <h3>Hello, I am</h3>
+            <h1>AKSHYAVARSHINI J</h1>
+            <h1> An <span>Aspirant Engineer</span></h1>
+          
+             
+            <div class="socila-media-profile">
+                <a href="https://www.linkedin.com/in/akshyavarshini" target="_blank"><i class="fa-brands fa-linkedin-in"></img/Akshyavarshini J.jpegi></i></a>
+                <a href="https://github.com/AKSHYAVARSHINI-J" target="_blank"><i class="fa-brands fa-github"></i> </a>
+                <a href="mailto:akshyavarshini0702@gmail.com" target="_blank"><i class="fas fa-envelope"></i></a>
+            </div>
+            <a href="resume /Akshyavarshini J.pdf" download class="button">Download Resume <i class="fa-solid fa-download"></i></a>
+        </div>
+        <div class="home-img">
+            <img src="img/akshya .jpeg" alt="myImg" />
+        </div>
+    </section>
+
+    <section class="about" id="about">
+        <div class="about-container">
+            <h2 class="heading">About <span>Me</span></h2>
+            <p>
+              I'm Akshya Varshini J, an aspiring engineer with a strong foundation
+              in Electronics and Communication Engineering and a growing passion 
+              for web development. My academic journey has instilled in me a strong
+              work ethic, analytical skills, and a desire for continuous learning. 
+              I'm eager to contribute my skills and enthusiasm to a dynamic team
+              where I can learn and grow while creating innovative solutions.
+              </p>
+              <button class="read-more-btn" onclick="toggleReadMore()">Read More</button>
+             <div class="extra-content" id="extraContent">
+      <p>
+            As a proactive and meticulous individual, I'm driven to deliver
+            high-quality work that exceeds expectations. My experience in areas 
+            like poster making and paper presentations has honed my communication
+            and presentation skills. I'm a quick learner and a strong team player,
+            always ready to take on new challenges and contribute to a positive
+            and productive environment.
+      </p>
+       </div>
+          </div>
+        </div>
+         <script>
+    function toggleReadMore() {
+      const extraContent = document.getElementById('extraContent');
+      const readMoreBtn = document.querySelector('.read-more-btn');
+      
+      // Toggle visibility
+      if (extraContent.style.display === 'none' || extraContent.style.display === '') {
+        extraContent.style.display = 'block'; // Show the extra content
+        readMoreBtn.textContent = 'Read Less'; // Change button text
+      } else {
+        extraContent.style.display = 'none'; // Hide the extra content
+        readMoreBtn.textContent = 'Read More'; // Reset button text
+      }
+    }
+
+    // Ensure the extra content is hidden on page load
+    document.addEventListener('DOMContentLoaded', () => {
+      document.getElementById('extraContent').style.display = 'none';
+    });
+  </script>
+
+        </div>
+    </section>
+
+    <section class="skills" id="skills">
+        <div class="skill-container">
+            <h2 class="heading">Technical<span> Skills</span></h2>
+            <div class="skills-container">
+                <img src="./img/html.jpg" />
+                <img src="./img/css.jpg" />
+                <img src="./img/Bootstrap_lude5v.jpg" />
+                <img src="./img/Learn_Java_Script_Along_With_Asp_Net_http___www.slideshare_xof95m.jpg" />
+                <img src="./img/mysql.png" />
+                <img src="./img/python.jpg" />
+                <img src="./img/Figma__The_Collaborative_Interface_Design_Tool_gpmsfu.jpg" />
+                <img src="./img/django-icon.svg" />
+
+            </div>
+        </div>
+    </section>
+
+    <section class="service" id="services">
+        <h2 class="heading">My<span> Services</span></h2>
+        <div class="services-container">
+            <div class="service-card">
+                <i class="fa-solid fa-code"></i>
+                <h3>Web Development</h3>
+                <p>
+                    A versatile web developer skilled in creating dynamic and responsive websites using HTML, CSS, JavaScript, and frameworks like Django and React. My portfolio showcases a variety of projects, including e-commerce platforms, weather dashboards, and interactive interfaces. Each project highlights my commitment to clean design, user-friendly functionality, and optimized performance. 
+                </p>
+            </div>
+
+            <div class="service-card">
+                <i class="fa-solid fa-palette"></i>
+                <h3>Document Design & Management</h3>
+                <p>
+                   
+                 Skilled in Microsoft Office applications, including Word, Excel, and PowerPoint. I specialize in creating professional documents, advanced with Excel,  and engaging presentations.Proficient in creating well-structured, professional documents with advanced formatting, styles, and layouts. Skilled in crafting engaging, visually compelling presentations tailored to different audiences.
+                </p>
+            </div>
+
+            <div class="service-card">
+                <i class="fa-solid fa-palette"></i>
+                <h3>Creative Content Development</h3>
+                <p>
+                  Leveraging technical proficiency and artistic creativity, I excel in designing  engaging digital content. From captivating presentations and polished documents to  interactive web elements, I ensure every piece delivers  clarity and visual appeal. I bring visual appeal in all my work, from presentations and documents to interactive online features.
+
+
+                    <br><br>
+                </p>
+            </div>
+        </div>
+    </section>
+
+    <section class="projects" id="project">
+        <h2 class="heading">My<span> Projects</span></h2>
+        <div class="project-container">
+            <div class="project-card">
+                <img src="img/CMS.png" alt="project1" class="project-image" />
+                <div class="project-content">
+                    <h4>Student Management System</h4>
+                    <p>
+                  The Student Management System is a comprehensive platform designed to streamline and automate various academic and administrative tasks within an educational institution.This system ensures data accuracy, reduces manual effort, and enhances collaboration among students, teachers, and administrators. 
+                    </p>
+                   <!-- <a href="https://sbibanks-c1a219fef3df.herokuapp.com/" target="_blank"><i class="fa-solid fa-arrow-up-right-from-square"></i
+            ></a>--> 
+                </div>
+            </div>
+            <div class="project-card">
+                <img src="./img/netflix.jpg" alt="project1" class="project-image" />
+                <div class="project-content">
+                    <h4>Movie ticket Booking</h4>
+                    <p>
+                        The Online Movie Ticket Booking System is a user-friendly web application designed to allow users to browse movie listings, select showtimes, and book tickets online in a quick and efficient manner. username:yuvaraja,pass=1234
+                    </p>
+                  <!--<a href="https://yuvaraja958505.github.io/movie_tiickets/" target="_blank"><i class="fa-solid fa-arrow-up-right-from-square"></i
+            ></a> -->  
+                </div>
+            </div>
+
+            <div class="project-card">
+                <img src="img/project.jpeg" alt="project1" class="project-image" />
+                <div class="project-content">
+                    <h4>Women Safety Night Patrolling IoT Robot</h4>
+                    <p>
+                    This innovative solution seeks to promote safety and confidence for women, particularly during nighttime, by leveraging smart technologies and real-time communication.By integrating Arduino, GSM, GPS modules, and a buzzer, the device aims to monitor the real-time location of individuals, provide timely alerts during emergencies, and support quick response mechanisms. 
+                    </p>
+                    <!-- <a href="https://yuvaraja958505.github.io/july19-task-KTM-World/" target="_blank"><i class="fa-solid fa-arrow-up-right-from-square"></i
+            ></a> -->   
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section class="certificates-container" id="certificates">
+        <h2 class="heading">My<span> Certificates</span></h2>
+        <div class="certificates-card">
+            <img src="img/certificate/cer 1 res.jpeg" alt="Responsive Web Design" />
+            <img src="img/certificate/narayana.png" alt="Accolades" />
+            <img src="img/certificate/wipro.png" alt="Wipro" />
+            <img src="img/certificate/pgs.jpeg" alt="Accolades" />
+            <img src="img/certificate/nptel .jpeg" alt="NPTEL" />
+            <img src="img/nptel.png" alt="NPTEL" />
+            
+
+
+            
+        </div>
+    </section>
+
+    <script src="index.js"></script>
+</body>
+
+</html>
